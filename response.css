@@ -1,0 +1,64 @@
+@media screen and (max-width:1000px) {
+  .top-wrapper h1{
+    font-size: 32px;
+  }
+  .lesson {
+    flex-wrap: wrap;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
+  .lesson-wrapper {
+    padding-bottom: 720px;
+  }
+  .message-wrapper h3 {
+    font-size: 20px;
+    padding-top: 80px;
+  }
+  .message-wrapper p {
+  font-size: 18px;
+  }
+  footer {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .head-right a {
+    display: none;
+  }
+  #hum {
+    display: flex;
+    color: white;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+  }
+  .top-p {
+    padding: 0 15px;
+    text-align: left;
+    font-size: 14px;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+    text-align: left;
+    padding: 0 15px;
+  }
+  .btn {
+    width: 100%;
+  }
+  .facebook {
+    margin-bottom: 8px;
+  }
+  .lessons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lesson-wrapper {
+    padding-bottom: 100px;
+  }
+  .text {
+    width: 100%;
+  }
+}
